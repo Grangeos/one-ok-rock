@@ -1,0 +1,27 @@
+//main: main.scss
+
+.Actualite{
+    margin-top: 10vh;
+    .boxActualite{
+        padding: 0 2vw;
+        height: 40vh;
+        width: 70vw;
+        margin: 0 auto;
+        display: flex;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        .partieImage{
+            width: 30%;
+            height: 100%;
+            background-image: url(../photo/live.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+        .partieTexte{
+            width: 70%;
+            height: 100%;
+            text-align: center;
+        }
+    }
+}
